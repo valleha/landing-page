@@ -1,5 +1,38 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 header {
     background-color: #1F2937;
     color: #F9FaF8;
     font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
 }
