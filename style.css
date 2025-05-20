@@ -1,14 +1,19 @@
 * {
     font-family: "Roboto", sans-serif;
+   
 }
 
+/* Header Section */
 header {
     background-color: #1F2937;
     color: #F9FaF8;
     font-size: 24px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+
 }
 
 
@@ -31,8 +36,40 @@ a {
 
 }
 
+/*Intro Section*/
+
 .intro {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FaF8;
+    padding-right: 100px;
+    padding-left: 100px;
+    gap: 50px;
+
+}
+
+img {
+    width: 300px;
+   
+    
+}
+
+h1 {
+    font: 48px;
+    font-weight: 900;
+}
+
+.signup {
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #3882f6;
+    color: #F9FaF8;
+}
+/*Info Section*/
+
+figure {
+    border: #3882f6;
+    border-radius: 10px;
 }
