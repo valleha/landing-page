@@ -1,10 +1,12 @@
 * {
     font-family: "Roboto", sans-serif;
-   
 }
 
+body {
+    margin: 0;
+}
 
-/* Header Section */
+/* header section */
 header {
     background-color: #1F2937;
     color: #F9FaF8;
@@ -37,7 +39,7 @@ a {
 
 }
 
-/*Intro Section*/
+/*intro section*/
 
 .intro {
     display: flex;
@@ -80,7 +82,7 @@ h1 {
 }
 
 
-/*Info Section*/
+/*info section*/
 
 .info {
     padding: 0px 100px 100px 100px;
@@ -116,7 +118,7 @@ h3 {
     text-align: center;
 }
 
-/* Quote Section*/
+/*quote section*/
 
 .quote {
     background-color: #e5e7eb;
@@ -133,4 +135,55 @@ h3 {
 
 .quote-footer {
     text-align: right;
+}
+
+/*Call to action section*/
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #F9FaF8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 100px;
+    padding: 30px 60px;
+    gap: 50px;
+
+}
+
+.cta-header {
+    color: #F9FaF8;
+    text-align: start;
+}
+
+
+.cta-container > p {
+    margin: 0px;
+    font-weight: lighter;
+}
+
+h4 {
+    margin: 0px;
+    
+}
+
+.signup-bottom {
+    background-color: #3882f6;
+    color: #F9FaF8;
+    border-color: #F9FaF8;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+    align-self: center;
+    padding: 10px 20px;
+}
+
+/*footer section*/
+
+.copyright {
+    background-color: #1F2937;
+    color: #F9FaF8;
+    text-align: center;
+    padding: 50px;
 }
