@@ -1,1 +1,1 @@
-This is a landing page done as one of the odin-project projects. 
+This is a landing page done as one of the odin-project projects. It's an example of what the landing page for a campaign page for dungeons and dragons might look like.
