@@ -3,6 +3,7 @@
    
 }
 
+
 /* Header Section */
 header {
     background-color: #1F2937;
@@ -44,21 +45,27 @@ a {
     justify-content: space-between;
     background-color: #1F2937;
     color: #F9FaF8;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding: 100px;
     gap: 50px;
-
 }
 
-img {
-    width: 300px;
-   
+.pitch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
     
 }
 
+img {
+    width: 300px;  
+
+}
+
 h1 {
-    font: 48px;
+    font-size: 48px;
     font-weight: 900;
+    margin: 0px;
 }
 
 .signup {
@@ -66,10 +73,44 @@ h1 {
     padding: 10px 30px;
     background-color: #3882f6;
     color: #F9FaF8;
+    display: flex;
+    align-self: start
+    
+
 }
+
+
 /*Info Section*/
 
-figure {
-    border: #3882f6;
+.info {
+    padding: 0px 100px 100px 100px;
+    
+}
+
+.box-img {
+    border: solid #3882f6;
     border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+figcaption {
+    color: #1f2937;
+    font-size: 12px;
+    display: flex;
+    justify-self: center;
+}
+
+h3 {
+    font-size: 36px; 
+    color: #1f2937;
+    font-weight: 900; 
+    text-align: center;
 }
