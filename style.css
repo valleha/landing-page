@@ -103,7 +103,8 @@ h1 {
 
 figcaption {
     color: #1f2937;
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: lighter;
     display: flex;
     justify-self: center;
 }
@@ -113,4 +114,23 @@ h3 {
     color: #1f2937;
     font-weight: 900; 
     text-align: center;
+}
+
+/* Quote Section*/
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 80px 150px;
+}
+
+.p-quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    
+}
+
+.quote-footer {
+    text-align: right;
 }
